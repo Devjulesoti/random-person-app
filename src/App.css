@@ -1,45 +1,54 @@
 .App {
   text-align: center;
 }
-.con{
+.con {
   background-color: beige;
   width: 80%;
   margin: 0 auto;
   padding-bottom: 30px;
-
 }
 
-.person{
+.person {
   width: 80%;
   margin: 0px auto 0px auto;
-  ;
 }
-.person-img{
+.person-img {
   width: 200px;
   border-radius: 20px;
-  
 }
-.details{
+.details {
   width: 40%;
   margin: 0 auto;
-
 }
-.details p{
+.details p {
   display: flex;
   align-items: center;
-  margin:10px auto;
+  margin: 10px auto;
+  justify-content: start;
 }
-.details p img{
-padding-right: 25px;
+.details p img {
+  padding-right: 25px;
 }
-button{
+button {
   padding: 10px;
   background-color: blanchedalmond;
   margin-top: 20px;
   border-radius: 10px;
 }
-button:hover{
+button:hover {
   background-color: black;
   color: antiquewhite;
   transition: 1s;
+}
+@media (max-width: 500px) {
+  .con {
+    width: 100%;
+  }
+  .details {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .details p img {
+    padding-right: 5px;
+  }
 }
